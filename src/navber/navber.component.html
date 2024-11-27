@@ -1,0 +1,36 @@
+<nav class="bg-[#2c3e50] border-gray-200 text-white p-3 w-[100%] fixed z-10 ">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between  mx-auto p-4 ">
+      <a class="flex items-center space-x-3 rtl:space-x-reverse" routerLink="startframework" routerLinkActive="">
+        <span class="self-center text-2xl font-semibold whitespace-nowrap ps-16  uppercase">Start Framework
+        </span>
+      </a>
+      <!-- ----------------------------------- Open main menu---------------------------------------   -->
+       <button data-collapse-toggle="navbar-default" type="button" id="button" class="inline-flex items-center p-2 w-14 h-10 justify-center text-sm  text-black rounded-lg md:hidden border border-gray-800 focus:outline-none focus:ring-2 focus:ring-black "
+        aria-controls="navbar-default" aria-expanded="false" >
+        <span class="sr-only cursor-pointer md:hidden " >Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round" stroke-width="2"  d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button> 
+    
+  <!-- ----------------------------------------- navber---------------------------------------- -->
+      <div class="hidden w-full md:block md:w-auto pe-16 name" id="navbar-default ">
+        <ul class="font-medium flex flex-col  md:p-0 mt-4  rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse ">
+          <li>
+            <a class="block py-1 px-1  rounded uppercase " routerLink="about"
+              routerLinkActive="text-white bg-[#1abc9c] font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 font-sans-serif font-bold text-2xl">About</a>
+          </li>
+          <li>
+            <a class="block py-1 px-1  rounded uppercase" routerLink="portfolio"
+            routerLinkActive="text-white bg-[#1abc9c] font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 font-sans-serif font-bold text-2xl">portfolio</a>
+          </li>
+          <li>
+            <a class="block py-1 px-1  rounded uppercase" routerLink="contact"
+            routerLinkActive="text-white bg-[#1abc9c] font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 font-sans-serif font-bold text-2xl">contact</a>
+          </li>
+  
+        </ul>
+      </div>
+    </div>
+  </nav>    
+
